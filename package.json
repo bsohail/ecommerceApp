@@ -1,7 +1,7 @@
 {
   "name": "pushp-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A fully-functional e-commerce website used as an online art store.",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --watch backend --exec babel-node backend/server.js",
@@ -29,5 +29,13 @@
     "@babel/node": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsohail/ecommerceApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bsohail/ecommerceApp/issues"
+  },
+  "homepage": "https://github.com/bsohail/ecommerceApp#readme"
 }
