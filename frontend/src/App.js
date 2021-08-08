@@ -37,23 +37,6 @@ function App() {
                     }
                 </div>
             </header>
-            <aside className = "sidebar">
-                <h3> Sort By Themes </h3>
-                <button className = "sidebar-close-button" onClick = {closeMenu}> x </button>
-                <ul>
-                    <li>
-                        <a href = "index.html"> Nature </a>
-                    </li>
-
-                    <li>
-                        <a href = "index.html"> Religion </a>
-                    </li>
-
-                    <li>
-                        <a href = "index.html"> Abstract Figures </a>
-                    </li>
-                </ul>
-            </aside>
             <main className = "main">
                 <div className = "content">
                     <Route path="/order/:id" component={OrderScreen} />
